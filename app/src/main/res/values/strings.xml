@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">GeoQuizElite</string>
+    <string name="question_text">New York is the largest city in the USA</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="cheat_button">Cheat</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="question_1">Seattle is more northerly than New York City</string>
+    <string name="question_2">Rhode Island has a greater population than Mongolia</string>
+    <string name="question_3">Memphis is the state capital of Tennessee</string>
+    <string name="question_4">The currency of Switzerland is the Euro</string>
+    <string name="question_5">China borders the same number of countries as Russia</string>
+    <string name="question_6">The Indian Ocean is the third largest ocean in the world</string>
+    <string name="question_7">There are more countries in Africa than Asia</string>
+    <string name="question_8">Brasilia is the capital city of Brazil</string>
+    <string name="question_9">Mount Kilimanjaro is higher than Denali</string>
+    <string name="question_10">The Sahara Desert has a greater area than USA</string>
+    <string name="question_11">Iceland is covered in ice</string>
+    <string name="question_12">The canadian flag has a maple leaf on it</string>
+    <string name="question_13">Russia spans two continents</string>
+    <string name="question_14">There are penguins in South Africa</string>
+    <string name="question_15">The Bay of Bengal is to the left of India</string>
+
+    <string name="warning_text">Are you sure you want to see the answer?</string>
+    <string name="show_answer_button">Show Answer</string>
+
+    <string name="gold_message">You earned a gold medal!</string>
+    <string name="silver_message">You earned a silver medal!</string>
+    <string name="bronze_message">You earned a bronze medal!</string>
+    <string name="no_medal_message">Score higher to earn a medal</string>
 </resources>
