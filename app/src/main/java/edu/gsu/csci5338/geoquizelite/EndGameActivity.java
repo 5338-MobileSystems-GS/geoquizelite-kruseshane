@@ -44,6 +44,7 @@ public class EndGameActivity extends AppCompatActivity {
             public void onClick(View v) {
                 db.reset();
                 Intent intent = new Intent(EndGameActivity.this, MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }
         });

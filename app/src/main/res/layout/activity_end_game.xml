@@ -11,21 +11,33 @@
     <TextView
         android:id="@+id/correct_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="12dp"/>
 
     <TextView
         android:id="@+id/incorrect_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="12dp"/>
 
     <TextView
         android:id="@+id/cheated_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="12dp"/>
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reset_button"/>
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:text="@string/reset_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
 </LinearLayout>
