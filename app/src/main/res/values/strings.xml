@@ -5,6 +5,7 @@
     <string name="false_button">False</string>
     <string name="cheat_button">Cheat</string>
     <string name="submit_button">Submit</string>
+    <string name="reset_button">Play Again</string>
 
     <string name="question_1">Seattle is more northerly than New York City</string>
     <string name="question_2">Rhode Island has a greater population than Mongolia</string>

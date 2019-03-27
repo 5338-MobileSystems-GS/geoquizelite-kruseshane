@@ -3,6 +3,8 @@ package edu.gsu.csci5338.geoquizelite;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -15,6 +17,8 @@ public class EndGameActivity extends AppCompatActivity {
     private int correct;
     private int incorrect;
     private int cheated;
+    private Button mResetButton;
+    private DBHandler db = new DBHandler(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +37,15 @@ public class EndGameActivity extends AppCompatActivity {
         correctView.setText("Correct: " + String.valueOf(correct));
         incorrectView.setText("Incorrect: " + String.valueOf(incorrect));
         cheatedView.setText(("Cheated: " + String.valueOf(cheated)));
+        mResetButton = findViewById(R.id.reset_button);
+
+        mResetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                db.reset();
+                Intent intent = new Intent(EndGameActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
